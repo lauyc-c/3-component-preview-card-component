@@ -1,0 +1,97 @@
+
+body, h1 {
+    color: hsl(0, 0%, 95%);
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+p, button {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 25px 0 50px;
+}
+
+.car-table {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 25px 50px;
+    max-width: 1440px;
+}
+
+.car-type {
+    text-align: center;
+    padding: 2.5em;
+    max-width: 15em;
+    text-align: start;
+}
+
+.attribution {
+    display: flex;
+    align-self: flex-end;
+}
+
+button {
+    border-radius: 2rem;
+    background-color:hsl(0, 0%, 95%);
+    padding: 1rem 2rem;
+    border: none;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.sedans button {
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.suvs button {
+    color:hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.luxury button {
+    color:hsl(179, 100%, 13%);
+}
+
+button:hover {
+    background: none;
+    border: solid hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+@media (max-width: 700px) {
+    .car-table {
+        flex-direction: column;
+        max-width: 375px;
+    }
+
+    #sedans {
+        border-radius: 0.5rem 0.5rem 0 0;
+    }
+
+    #luxury {
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+}
