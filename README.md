@@ -14,7 +14,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -31,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/lauyc-c/3-component-preview-card-component)
+- Live Site URL: [Live site](https://lauyc-c.github.io/3-component-preview-card-component/)
 
 ## My process
 
@@ -62,9 +61,3 @@ I found myself not as familiar with using classes and/or ids on specifying compo
 
 - Website - [Cappi Lau](https://github.com/lauyc-c)
 - Frontend Mentor - [@lauyc-c](https://www.frontendmentor.io/profile/lauyc-c)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
